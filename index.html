@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sign Up Form</title>
+  </head>
+  <body class="bg-light">
+    <section class="container-fluid d-flex align-items-center main-wrapper">
+      <div class="container">
+        <div class="row d-flex align-items-center rounded-pill bg-white shadow">
+          <div class="col-md-6 p-0">
+            <img
+              src="https://img.freepik.com/free-vector/subscriber-concept-illustration_114360-3453.jpg?w=740&t=st=1667204383~exp=1667204983~hmac=c6f094ad1fa342695a405e03345485cbb52c92e1e3cd7c284abdff05940e372a"
+              alt="Welcome Image"
+              class="img-fluid rounded-circle"
+            />
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12 mb-lg-4 mb-3 px-md-5">
+                <h1 class="text-md-start text-center">Sign Up</h1>
+              </div>
+              <form class="px-md-5 px-2">
+                <div class="col-md-12">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control rounded-pill" id="floatingInput" placeholder="Name" autofocus required />
+                    <label for="floatingInput">Name</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control rounded-pill" id="floatingInput" placeholder="Email" required />
+                    <label for="floatingInput">Email</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="password" class="form-control rounded-pill" id="floatingInput" placeholder="Password" minlength="8" required />
+                    <label for="floatingInput">Password</label>
+                  </div>
+                  <!-- <div class="form-check mb-3"><input type="checkbox" class="form-check-input" id="flexCheckDefault" name="" checked /> Remember me</div> -->
+                  <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
+                    <label class="form-check-label" for="flexCheckChecked"> Remember me </label>
+                  </div>
+                  <div class="submit-btn d-flex justify-content-md-start justify-content-center">
+                    <input type="button" class="btn btn-outline-success mb-md-0 mb-5 btn-lg rounded-pill" value="Sign Up" />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
